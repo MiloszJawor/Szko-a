@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f3f1f1;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-entry {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-right: 15px;
+    margin-top: 20px;
+    max-width: 80%;
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.photo-description {
+    max-width: 900px;
+    text-align: left;
+    margin-right: 10px;
+    background-color: #f0eeee;
+}
+
+.text-between-photos {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #888;
+}
+#fr1
+{
+font-size: 30px;
+text-align: left;
+
+}
+
+#fr2
+{
+margin-right: 30px;
+font-size: 25px;
+text-align: right;
+
+}
+
+#fr4
+{
+text-align: left;
+font-size: 20px;
+}
+.imgcenter
+{
+width: 35%;
+margin: 0 auto;
+display: block;
+}
+.imgcenter1
+{
+
+width: 45%;
+margin: 0 auto;
+display: block;
+margin-bottom: 40px;
+}
+.imgcenter1:hover
+{
+transform: scale(1.14);
+cursor: pointer;
+}
